@@ -1,6 +1,5 @@
 #ifndef TEMPERATURE_H
 #define TEMPERATURE_H
-#include <cmath>
 
 #include "Arduino.h"
 

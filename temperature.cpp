@@ -52,7 +52,7 @@ float Thermometer::getCelcius() {
   celsius = 1.0 / celsius; // Invert
   celsius -= 273.15; // convert to C
   celsius -= 0.4;
-  return roud(celsius*10)/10;
+  return celsius;
 }
 
 float Thermometer::getFahrenheit(float & celsius) {
